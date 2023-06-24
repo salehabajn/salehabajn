@@ -1,0 +1,15 @@
+{
+    'name': 'Covenant Record',
+    'category': 'Tools',
+    'summary': 'this',
+    'description': "",
+    'version': '1.0',
+    'depends': ['base'],
+    'data': ['views\covenant_record_views.xml',
+             'security\ir.model.access.csv',
+             ],
+    'demo':[],
+    'installable': True,
+    'application': True,
+    'license': 'LGPL-3',
+}
